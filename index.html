@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Learning — учись Python на практике</title>
+    <meta
+      name="description"
+      content="Практичный лендинг для старта в Python: roadmap, мини-проекты, поддержка и живые занятия."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-wrap">
+        <a class="logo" href="#">🐍 Python Learning</a>
+        <nav class="nav">
+          <a href="#program">Программа</a>
+          <a href="#benefits">Почему мы</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#cta">Старт</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="tag">Онлайн-интенсив для новичков</p>
+            <h1>Закончи путь «хочу в IT» и начни писать на Python уверенно</h1>
+            <p class="subtitle">
+              За 8 недель соберёшь 4 проекта в портфолио, разберёшься в базе backend и
+              получишь систему для роста без перегруза.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#cta">Записаться</a>
+              <a class="btn btn-secondary" href="#program">Смотреть программу</a>
+            </div>
+            <ul class="facts">
+              <li><strong>1 200+</strong> студентов</li>
+              <li><strong>4.9/5</strong> средняя оценка</li>
+              <li><strong>8 недель</strong> до первого pet-проекта</li>
+            </ul>
+          </div>
+          <div class="hero-card">
+            <h3>Ближайший поток</h3>
+            <p class="date" id="next-start">—</p>
+            <p>Формат: 2 живых урока + практика с ревью каждую неделю</p>
+            <a class="btn btn-primary full" href="#cta">Забронировать место</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="program" class="section">
+        <div class="container">
+          <h2>Что внутри программы</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Недели 1–2</h3>
+              <p>Основы Python, структуры данных, функции, чистый код.</p>
+            </article>
+            <article class="card">
+              <h3>Недели 3–4</h3>
+              <p>ООП, работа с API, парсинг и автоматизация задач.</p>
+            </article>
+            <article class="card">
+              <h3>Недели 5–6</h3>
+              <p>Flask, базы данных, архитектура мини-backend приложения.</p>
+            </article>
+            <article class="card">
+              <h3>Недели 7–8</h3>
+              <p>Финальный проект, code review, подготовка к собеседованиям.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="benefits" class="section section-alt">
+        <div class="container">
+          <h2>Почему студенты доходят до результата</h2>
+          <div class="benefits">
+            <div>
+              <h3>Практика каждый день</h3>
+              <p>Мини-спринты и домашки, которые реально можно встроить в график.</p>
+            </div>
+            <div>
+              <h3>Поддержка наставника</h3>
+              <p>Ответы в чате, ревью кода и разборы ошибок на созвонах.</p>
+            </div>
+            <div>
+              <h3>Портфолио и карьерный трек</h3>
+              <p>Помогаем оформить GitHub, резюме и пройти первые интервью.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="section">
+        <div class="container">
+          <h2>Отзывы выпускников</h2>
+          <div class="reviews">
+            <blockquote>
+              «Через 2 месяца сделал Telegram-бота для работы и получил первый заказ.»
+              <cite>— Андрей, Junior Python Dev</cite>
+            </blockquote>
+            <blockquote>
+              «До курса боялась кода. Сейчас пишу backend для своего pet-проекта.»
+              <cite>— Марина, QA → Python</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section id="cta" class="section cta">
+        <div class="container cta-box">
+          <div>
+            <h2>Готов(а) начать?</h2>
+            <p>Оставь контакт — пришлём программу, бонусный урок и детали по потоку.</p>
+          </div>
+          <form class="lead-form" onsubmit="return false;">
+            <label>
+              Имя
+              <input type="text" placeholder="Ваше имя" required />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="you@example.com" required />
+            </label>
+            <button class="btn btn-primary" id="submit-btn" type="submit">Получить программу</button>
+            <p class="form-note" id="form-note">Без спама. Только полезные материалы.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-wrap">
+        <span>© 2026 Python Learning</span>
+        <a href="#">Политика конфиденциальности</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
